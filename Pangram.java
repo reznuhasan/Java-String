@@ -9,7 +9,6 @@ public class Pangram {
         str=str.replace(" ","");
         str=str.toLowerCase();
         char ch[]=str.toCharArray();
-        Arrays.sort(ch);
         int arr[]=new int[26];
         for(int i=0;i<ch.length;i++){
             int value=(int)ch[i]-'a';
